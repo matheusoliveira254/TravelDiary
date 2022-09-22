@@ -15,6 +15,9 @@
 		413AA81527273B77008D6631 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413AA81427273B77008D6631 /* DateHelper.swift */; };
 		A11F1F8028DCAB320060A063 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1F7F28DCAB320060A063 /* Log.swift */; };
 		A11F1F8328DCAD860060A063 /* LogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1F8228DCAD860060A063 /* LogController.swift */; };
+		A11F1F8728DCC3D40060A063 /* LogListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1F8628DCC3D40060A063 /* LogListTableViewController.swift */; };
+		A11F1F8928DCC42A0060A063 /* LogListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1F8828DCC42A0060A063 /* LogListTableViewCell.swift */; };
+		A11F1F8B28DCC49D0060A063 /* LogDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F1F8A28DCC49D0060A063 /* LogDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		413AA81427273B77008D6631 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 		A11F1F7F28DCAB320060A063 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		A11F1F8228DCAD860060A063 /* LogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogController.swift; sourceTree = "<group>"; };
+		A11F1F8628DCC3D40060A063 /* LogListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListTableViewController.swift; sourceTree = "<group>"; };
+		A11F1F8828DCC42A0060A063 /* LogListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListTableViewCell.swift; sourceTree = "<group>"; };
+		A11F1F8A28DCC49D0060A063 /* LogDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				A11F1F8528DCADB20060A063 /* Model Controllers */,
+				A11F1F8C28DCC4A70060A063 /* View Controllers */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -119,6 +126,24 @@
 				A11F1F8228DCAD860060A063 /* LogController.swift */,
 			);
 			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		A11F1F8C28DCC4A70060A063 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A11F1F8628DCC3D40060A063 /* LogListTableViewController.swift */,
+				A11F1F8A28DCC49D0060A063 /* LogDetailViewController.swift */,
+				A11F1F8D28DCC5290060A063 /* Custom View */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A11F1F8D28DCC5290060A063 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				A11F1F8828DCC42A0060A063 /* LogListTableViewCell.swift */,
+			);
+			path = "Custom View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11F1F8728DCC3D40060A063 /* LogListTableViewController.swift in Sources */,
 				413AA7F12724B792008D6631 /* AppDelegate.swift in Sources */,
 				413AA7F32724B792008D6631 /* SceneDelegate.swift in Sources */,
 				A11F1F8328DCAD860060A063 /* LogController.swift in Sources */,
+				A11F1F8B28DCC49D0060A063 /* LogDetailViewController.swift in Sources */,
+				A11F1F8928DCC42A0060A063 /* LogListTableViewCell.swift in Sources */,
 				A11F1F8028DCAB320060A063 /* Log.swift in Sources */,
 				413AA81527273B77008D6631 /* DateHelper.swift in Sources */,
 			);

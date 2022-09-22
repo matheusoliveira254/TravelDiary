@@ -21,3 +21,12 @@ class Log {
         self.body = body
     }
 }
+//Adopt and conform to the Equatable Protocol
+extension Log: Equatable {
+    static func == (lhs: Log, rhs: Log) -> Bool {
+        return lhs.title == rhs.title &&
+        lhs.address == rhs.address &&
+        lhs.body == rhs.body &&
+        lhs.logDate == rhs.logDate
+    }
+}
