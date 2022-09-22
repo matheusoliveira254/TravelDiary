@@ -9,12 +9,12 @@ import Foundation
 
 class Log {
     
-    let title: String
-    let address: String
-    let logDate: Date
-    let body: String
+    var title: String
+    var address: String
+    var logDate: Date
+    var body: String
     
-    init(title: String, address: String, logDate: Date, body: String) {
+    init(title: String, address: String, logDate: Date = Date(), body: String) {
         self.title = title
         self.address = address
         self.logDate = logDate
